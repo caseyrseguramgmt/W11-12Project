@@ -21,6 +21,11 @@ The objective of this project is to create a suite of test cases using Selenium 
 Usage of this would be to see functionality of zippia site and get salary / location data?
 
 ## Progress
+    05/02
+    1. Fixed all blockers from previous day
+    2. Can successfully web scrap the data chart from the next page
+    3. The data is then placed in a db file
+    4. MVP finished, continuing with doing more test cases
     05/01
     1. Solution for the captcha was found with using an input() for the user to solve the captcha manually. The problem with this is that if I planned to run the script more then once it would have to be manually done many times. Currently looking for a work around, will proceed. (May switch site?) Also captcha after being solved once does not populate everytime.
     2. Blocker of trying to webscrap data off website due to the site having more then one data chart with graph with same class.
