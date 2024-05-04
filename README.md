@@ -21,11 +21,17 @@ The objective of this project is to create a suite of test cases using Selenium 
 Usage of this would be to see functionality of zippia site and get salary / location data?
 
 ## Progress
+    05/03
+    1. Looking at udemy documentation for how to add multiple test cases to be tested seperately
+    2. Looking at previous project that this was done in to try and replicate.
+    3. Blocker, trying to isolate the tests using pytest.mark in order to only be able to run tests when thart marker is called. Problem at hand is the code is not running when being called upon.
+
     05/02
     1. Fixed all blockers from previous day
     2. Can successfully web scrap the data chart from the next page
     3. The data is then placed in a db file
     4. MVP finished, continuing with doing more test cases
+
     05/01
     1. Solution for the captcha was found with using an input() for the user to solve the captcha manually. The problem with this is that if I planned to run the script more then once it would have to be manually done many times. Currently looking for a work around, will proceed. (May switch site?) Also captcha after being solved once does not populate everytime.
     2. Blocker of trying to webscrap data off website due to the site having more then one data chart with graph with same class.
@@ -65,8 +71,8 @@ Usage of this would be to see functionality of zippia site and get salary / loca
 4. waits
 5. dropdown visivility
 6. clicking
-7. 
-8. 
+7. SQL
+8. DB
 9. 
 10. 
 
