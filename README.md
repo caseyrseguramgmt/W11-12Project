@@ -21,10 +21,15 @@ The objective of this project is to create a suite of test cases using Selenium 
 Usage of this would be to see functionality of zippia site and get salary / location data?
 
 ## Progress
+    05/06
+    1. Continuation of trying to fix the pytest.mark to be used. 
+    2. Attemped to make a class for the check state salaries which would include methods inside to test for mini instances of the code to make sure they are properly running.
+    3. Error with Pycharm not wanting to identify the code as a test with pytest still. Solution yet to be found.
+
     05/03
     1. Looking at udemy documentation for how to add multiple test cases to be tested seperately
     2. Looking at previous project that this was done in to try and replicate.
-    3. Blocker, trying to isolate the tests using pytest.mark in order to only be able to run tests when thart marker is called. Problem at hand is the code is not running when being called upon.
+    3. Blocker, trying to isolate the tests using pytest.mark in order to only be able to run tests when the marker is called. Problem at hand is the code is not running when being called upon.
 
     05/02
     1. Fixed all blockers from previous day
