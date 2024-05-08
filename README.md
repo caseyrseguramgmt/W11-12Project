@@ -21,6 +21,11 @@ The objective of this project is to create a suite of test cases using Selenium 
 Usage of this would be to see functionality of zippia site and get salary / location data?
 
 ## Progress
+    05/07
+    1. Problem solved for pytest.mark
+    2. Class made one checks for state salaries another checks for city salaries.
+    3. Both files make two seperate db's with the web scrapped information
+    
     05/06
     1. Continuation of trying to fix the pytest.mark to be used. 
     2. Attemped to make a class for the check state salaries which would include methods inside to test for mini instances of the code to make sure they are properly running.
