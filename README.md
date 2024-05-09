@@ -7,9 +7,9 @@ The objective of this project is to create a suite of test cases using Selenium 
 ## Table of Contents
 1. [Technologies Used](#technologies-used)
 2. [Usage](#usage)
-3. [Progress](#progress)
-4. [Automation Structure](#automation-structure)
+3. [Automation Structure](#automation-structure)
 4. [Elements Being Tested](#elements-being-tested)
+5. [Progress](#progress)
 
 
 ## Technologies Used
@@ -20,7 +20,47 @@ The objective of this project is to create a suite of test cases using Selenium 
 ## Usage
 Usage of this would be to see functionality of zippia site and get salary / location data?
 
+
+## Automation Structure
+(Will be started after tests are made, currently only finding elements)
+
+1. create a db 
+2. disable chrome notification
+3. open browser
+4. go to webpage
+5. find search bar
+6. type text in search bar
+7. wait, click frop drop options to nav to new page
+8. locate data and scrap for both charts
+9. close driver
+10. use Flask to make local host
+11. View data on local host
+12. Look at report of tests
+
+## Elements Being Tested
+1. browser
+2. webpage
+3. find search bar
+4. waits
+5. dropdown visivility
+6. clicking
+7. SQL
+8. DB
+9. tests
+10. web scrapping
+11. requirements
+12. report
+
 ## Progress
+
+(ignore, only for coaches)
+
+    05/09
+    1. Complete flask to be viewed on local host
+    2. Script for video updated
+    3. Requirements.txt and report file added
+    4. Recorded and submitted video/uploaded
+
     05/08
     1. Successfully made two test cases for each class
         - First class is for scrapping state salaries
@@ -73,29 +113,3 @@ Usage of this would be to see functionality of zippia site and get salary / loca
         - Amazon alike demo
         - Practice form demo
         - smash characters demo with pulling special move?
-
-## Automation Structure
-(Will be started after tests are made, currently only finding elements)
-
-1. create a db 
-2. disable chrome notification
-3. open browser
-4. go to webpage
-5. find search bar
-6. type text in search bar
-7. wait, click frop drop options to nav to new page
-8. locate data and scrap for both charts
-9. close driver
-
-## Elements Being Tested
-1. browser
-2. webpage
-3. find search bar
-4. waits
-5. dropdown visivility
-6. clicking
-7. SQL
-8. DB
-9. tests
-10. web scrapping
-
