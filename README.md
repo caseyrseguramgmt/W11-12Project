@@ -21,6 +21,13 @@ The objective of this project is to create a suite of test cases using Selenium 
 Usage of this would be to see functionality of zippia site and get salary / location data?
 
 ## Progress
+    05/08
+    1. Successfully made two test cases for each class
+        - First class is for scrapping state salaries
+        - Second class is for scrapping city salaries
+        - Both tests can be ran independently or together using markers
+    2. Tried to add flask for web development aspect but was unable to complete.
+    3. Start of recording script.
     05/07
     1. Problem solved for pytest.mark
     2. Class made one checks for state salaries another checks for city salaries.
@@ -70,9 +77,15 @@ Usage of this would be to see functionality of zippia site and get salary / loca
 ## Automation Structure
 (Will be started after tests are made, currently only finding elements)
 
-1. 
-2. 
-3. 
+1. create a db 
+2. disable chrome notification
+3. open browser
+4. go to webpage
+5. find search bar
+6. type text in search bar
+7. wait, click frop drop options to nav to new page
+8. locate data and scrap for both charts
+9. close driver
 
 ## Elements Being Tested
 1. browser
@@ -83,6 +96,6 @@ Usage of this would be to see functionality of zippia site and get salary / loca
 6. clicking
 7. SQL
 8. DB
-9. 
-10. 
+9. tests
+10. web scrapping
 
